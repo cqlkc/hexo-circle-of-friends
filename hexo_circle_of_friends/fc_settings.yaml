@@ -57,7 +57,7 @@ GITEE_FRIENDS_LINKS: {
 # get links from github
 # 从github issue中获取友链
 GITHUB_FRIENDS_LINKS: {
-    enable: true, # true 开启github issue兼容
+    enable: false, # true 开启github issue兼容
     type: "volantis",  # volantis/stellar用户请在这里填写volantis
     owner: "cqlkc",  # 填写你的github用户名
     repo: "cqlkc.github.io",  # 填写你的github仓库名
@@ -74,7 +74,7 @@ BLOCK_SITE: [
 
 # 每个友链最多获取几篇文章，此值越大，则抓取的文章上限越多，相应地运行速度也会降低，反之亦然
 # 请设置一个正整数
-MAX_POSTS_NUM: 5
+MAX_POSTS_NUM: 7
 
 # 启用HTTP代理，此项设为true，并且需要添加一个环境变量，名称为PROXY，值为[IP]:[端口]，比如：192.168.1.106:8080
 HTTP_PROXY: false
